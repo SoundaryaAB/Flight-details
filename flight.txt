@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+
+typedef struct date Date;
+
+struct flight
+
+{
+    
+int number;
+  
+ char AirlinesName[20];
+ 
+ char Destination[20];
+ 
+ char Source[20];
+   
+int price;
+  
+ 
+};
+
+struct Ddate
+{
+
+  
+  int day;
+
+    int month;
+ 
+   int hour;
+
+
+};
+
+struct Adate{
+
+  
+  int day;
+  
+  int month;
+ 
+   int hour;
+
+
+};
+
+int main()
+
+{
+    
+//created a structure so that data of the flight can be stored.
+  
+  
+
+
+    return 0;
+
+}
